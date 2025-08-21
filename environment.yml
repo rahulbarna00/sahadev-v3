@@ -1,0 +1,12 @@
+name: sahadev
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2
+  - opencv
+  - pip:
+      - torch==2.2.2
+
