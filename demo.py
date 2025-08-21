@@ -16,7 +16,7 @@ def normalize_to_uint8(img):
     return img
 
 if __name__ == "__main__":
-    video_source = "video7.mp4"
+    video_source = "video2.mp4"
     cap = cv2.VideoCapture(video_source)
 
     if not cap.isOpened():
